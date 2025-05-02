@@ -1,0 +1,98 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #fff5cc;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+}
+
+.contato {
+  font-size: 1.1rem;
+  color: #d4af37;
+}
+
+main {
+  padding: 2rem;
+}
+
+.imoveis h1 {
+  text-align: center;
+  color: #d4af37;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.imovel {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.imovel img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.imovel h2 {
+  color: #d4af37;
+  margin-top: 1rem;
+}
+
+.imovel p {
+  color: #ccc;
+  margin: 0.5rem 0 1rem;
+}
+
+.btn {
+  background-color: #d4af37;
+  color: #000;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #bfa533;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 2rem;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  font-size: 24px;
+  padding: 0.7rem 1rem;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
